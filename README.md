@@ -9,7 +9,12 @@ Install docker and docker-compose
 ### Initial use
 Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib. If you need more you can add it at **requirements.txt**.
 
-Open a command line then execute this command:
+Clone this repository:
+```
+git clone https://github.com/RonBulaon/DockeredJupyterlab.git
+```
+
+Open a command line then execute this command inside **DockeredJupyterlab** diretory:
 ```
 sudo docker-compose up
 ```
@@ -34,7 +39,7 @@ The URL keeps changing on every start of the docker image. You can check the the
 ![alt text](images/status.png )
 
 
-All created notebooks will be created at your local directory **notebooks**.
+All notebooks will be created at your local directory **notebooks** including new folders.
 
 ![alt text](images/notebook.png)
 
