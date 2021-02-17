@@ -1,5 +1,5 @@
 # Jupyterlab in a Docker Container
-This is my template for building a development environment for Python with Jupyter Lab, Numpy, Pandas and Matplotlib. Additional libraries can also be added.
+This is my template for building a development environment for Python with Jupyter Lab, Numpy, Pandas and Matplotlib.
 
 ### Prerequisite
 Install docker and docker-compose
