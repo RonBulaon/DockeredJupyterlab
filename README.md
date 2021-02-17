@@ -39,3 +39,8 @@ All created notebooks will be created at your local directory **notebooks**.
 ![alt text](images/notebook.png)
 
 ![alt text](images/testfile.png)
+
+<br />
+
+### Copyright
+Licensed under The MIT License (MIT). See LICENSE.md for more info.
