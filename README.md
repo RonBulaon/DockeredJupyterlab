@@ -7,7 +7,8 @@ Install docker and docker-compose
 * https://docs.docker.com/compose/install/
 
 ### Initial use
-Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib. 
+Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib.
+
 Clone this repository:
 ```
 git clone https://github.com/RonBulaon/DockeredJupyterlab.git
