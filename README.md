@@ -13,11 +13,10 @@ Install git or git desktop
 <br/>
 
 ### Initial use
-Clone or download this repository:
+Clone by using this command below or download this repository from [here](https://github.com/RonBulaon/DockeredJupyterlab/archive/main.zip).
 ```
 git clone https://github.com/RonBulaon/DockeredJupyterlab.git
 ```
-or download from [here](https://github.com/RonBulaon/DockeredJupyterlab/archive/main.zip).
 
 <br />
 
