@@ -6,14 +6,24 @@ Install docker and docker-compose
 * https://docs.docker.com/get-docker/
 * https://docs.docker.com/compose/install/
 
-### Initial use
-Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib.
+Install git or git desktop
+* https://desktop.github.com/
+* https://desktop.github.com/
 
-Clone this repository:
+<br/>
+
+### Initial use
+Clone or download this repository:
 ```
 git clone https://github.com/RonBulaon/DockeredJupyterlab.git
 ```
-If you need more libraries you can add it at **requirements.txt**. Then open a command line and execute this command inside **DockeredJupyterlab** diretory:
+or download from [here](https://github.com/RonBulaon/DockeredJupyterlab/archive/main.zip).
+
+<br />
+
+Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib. If you need more libraries you can add it at **requirements.txt** before running command below.
+
+Then open a command line and execute this command inside **DockeredJupyterlab** diretory:
 ```
 sudo docker-compose up
 ```
@@ -41,4 +51,4 @@ All notebooks will be created at your local directory **notebooks**, including n
 <br />
 
 ### Copyright
-Licensed under The MIT License (MIT). See LICENSE.md for more info.
+Licensed under The MIT License (MIT). See [LICENSE](LICENSE) for more info.
