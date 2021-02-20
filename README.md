@@ -3,12 +3,12 @@ This is my template for building a development environment for Python with Jupyt
 
 ### Prerequisite
 Install docker and docker-compose
-* https://docs.docker.com/get-docker/
-* https://docs.docker.com/compose/install/
+* [Get Docker](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
 
-Install git or git desktop
-* https://desktop.github.com/
-* https://desktop.github.com/
+Then install git or git desktop
+* [Installing Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Git Desktop](https://desktop.github.com/)
 
 <br/>
 
@@ -20,9 +20,9 @@ git clone https://github.com/RonBulaon/DockeredJupyterlab.git
 
 <br />
 
-Initial configuration will install Jupyter Lab and , Numpy, Pandas and Matplotlib. If you need more libraries you can add it at **requirements.txt** before running command below.
+Initial configuration will install Jupyter Lab with Numpy, Pandas and Matplotlib. If you need more libraries you can add it at **requirements.txt** before running command below.
 
-Then open a command line and execute this command inside **DockeredJupyterlab** diretory:
+On a command line navigate to the cloned folder, **DockeredJupyterlab**. Or to where you have extracted the download files. Then, execute this command :
 ```
 sudo docker-compose up
 ```
@@ -30,7 +30,7 @@ sudo docker-compose up
 
 ![alt text](images/dockercompose.gif )
 
-Once done, you will be given a URL. Open the URL on your browser. The url will look like something like this:
+Once done, you will be given a URL. Open the URL on your browser. The url will look something like this:
 ```
 http://127.0.0.1:8888/lab?token=791b3a7b1384100f39efe063e47b68d03647fa90ff8ba614
 ```
